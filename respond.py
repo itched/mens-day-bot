@@ -21,7 +21,7 @@ t = ["when is international men's day",
     "When's international men's day",
     "when's national men's day",]
  
-for s in twt:
+for s in twts:
     for i in t:
         if i == s.text:
             sn = s.user.screen_name
